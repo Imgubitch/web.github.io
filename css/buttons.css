@@ -1,0 +1,21 @@
+.main-button {
+  border: none;
+  background: #fff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border-radius: 40px;
+  font-weight: 700;
+  font-size: 10px;
+  transition: all .5s;
+  transition: transform 1s;
+  outline: none; }
+
+.main-button:hover {
+  background: #2a2a2a;
+  color: #fff; }
+
+.main-button:active {
+  transform: rotateX(360deg); }
+
+.large-button {
+  padding: 10px 40px; }
